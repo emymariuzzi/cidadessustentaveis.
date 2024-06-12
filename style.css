@@ -6,4 +6,14 @@
 
 .intro{
     background-image: url(CIDADE\ 1.png);
+    height: 48vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+p{
+    background-color: rgba(214, 204, 204, 0.733);
+    text-align: center;
+    padding: 50% 0;
 }
