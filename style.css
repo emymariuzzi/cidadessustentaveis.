@@ -15,5 +15,7 @@
 p{
     background-color: rgba(214, 204, 204, 0.733);
     text-align: center;
-    padding: 50% 0;
+    padding: 20% 0;
+    width: 17%;
+    margin-left: 60%;
 }
