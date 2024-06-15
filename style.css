@@ -1,12 +1,11 @@
 .fonte1 {
         font-family: "Abril Fatface", sans-serif;
     }
-    
-}
 
 h1 span {
     display: block;
-}
+}    
+
 .cidade{
     width: 50%;
     border-radius: 67px;
