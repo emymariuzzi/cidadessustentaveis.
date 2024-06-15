@@ -1,16 +1,13 @@
 .fonte1 {
-font-family: serif;
+    font-family: serif;
 }
-header{
 
-}
 h1 span {
     display: block;
 }
 .cidade{
     width: 50%;
     border-radius: 67px;
-    
 }
 
 .intro{
