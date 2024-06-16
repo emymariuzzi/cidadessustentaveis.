@@ -10,7 +10,8 @@ header {
     display: block;
     background-color: lightgray;
     color: black;
-    padding: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    margin: -22px ; 
 }
 
     
