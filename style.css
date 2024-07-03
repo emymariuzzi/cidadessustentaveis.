@@ -5,13 +5,14 @@
 h1 span {
     display: block;
 }    
+* {
+    margin: 0;
+}
 
 header {
-    display: block;
     background-color: lightgray;
     color: black;
     padding: 0px 0px 0px 36px;
-    margin: -22px ;
     box-shadow: 0px 4px 8px darkgray; 
 }
 
@@ -19,24 +20,24 @@ header {
 
 .intro{
     background-image: url(CIDADE\ 1.png);
-    height: 48vw;
-    background-size: 92%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: 49px 5px 0px 46px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-
-p{
-    background-color: rgba(214, 204, 204, 0.733);
-    text-align: center;
-    padding: 2% 3%;
-    width: 17%;
-    margin-left: 55%;
-    border-radius: 25%;
-}
 
 .intotexto {
     font-family: 'Alatsi', sans-serif;
+    background-color: rgba(214, 204, 204, 0.733);
+    text-align: center;
+    padding: 10px;
+    width: 68%;
+    border-radius: 25%;
+    font-size: 14px;
+    max-width: 407px;
+    padding: 10%;
 }
 
 .subtitulo {
@@ -46,6 +47,29 @@ p{
 body {
     font-family: 'Alegreya Sans', sans-serif; 
 }
-.por-que-cidades-sustentaveis {
-    margin: -109px 0px 0px 19px;
+
+@media screen and (min-width:650px) {
+    
+    .intotexto {
+        width: 65%;
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width:790px) {
+    
+    .intotexto {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    
+    .intotexto {
+        width: 40%;
+        font-size: 20px;
+    }
+    
 }
