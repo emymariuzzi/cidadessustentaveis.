@@ -101,4 +101,15 @@ body {
     margin: 20px 50px 0px 0px;   
 }
 
+.texto {
+    font-family: 'Alatsi', sans-serif;
+    background-color: rgba(214, 204, 204, 0.733);
+    padding: 10px;
+    width: 68%;
+    border-radius: 25%;
+    font-size: 14px;
+    max-width: 407px;
+    padding: 10%;
+}
+
     
