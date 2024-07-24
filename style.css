@@ -25,6 +25,7 @@ header {
     margin: 10px;
     display: grid;
     grid-template-columns: 50% 50%;
+    margin: 3px 28px;
 }
 
 
